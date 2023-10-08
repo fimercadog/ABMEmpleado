@@ -40,3 +40,37 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Archivos generados por Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos generados por WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+.idea_modules/
+*.log
+
+# Carpeta de construcción de Angular
+/dist/
+
+# Archivos de configuración locales
+.env
+*.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+
+# Dependiendo de tu configuración específica, podrías necesitar agregar más exclusiones aquí.
+
+# Archivos de caché y registros
+.npm/
+.cypress/
+*.log
+*.swp
+
